@@ -34,6 +34,7 @@ const MainNavBar = () => {
               Registration
             </Link>
           </li>
+
           <li className="nav-item nav-item-dropdown">
             <button className="nav-link dropdown-btn">
               Login ▼
@@ -49,6 +50,7 @@ const MainNavBar = () => {
                   Manager Login
                 </Link>
               </li>
+              
               <li className="dropdown-item">
                 <Link to="/customer-login" className="dropdown-link">
                   Customer Login
